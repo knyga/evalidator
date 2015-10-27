@@ -21,6 +21,6 @@ class EValidator extends \yii\base\Model {
 
     public function __get($name)
     {
-        return $this->_attributes[$name];
+        return isset($this->_attributes[$name]) ? $this->_attributes[$name] : null;
     }
 }
