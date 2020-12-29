@@ -1,5 +1,6 @@
 {
     "name": "knyga/evalidator",
+    "license": "MIT",
     "authors": [
         {
             "name": "Oleksandr Knyga",
